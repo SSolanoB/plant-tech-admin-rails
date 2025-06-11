@@ -57,3 +57,4 @@ end
 
 gem "bundler-audit", "~> 0.9.2"
 gem "active_record_doctor", "~> 1.15"
+gem "strong_migrations", "~> 2.3"
