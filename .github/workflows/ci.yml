@@ -35,6 +35,9 @@ jobs:
           ruby-version: .ruby-version
           bundler-cache: true
 
+      - name: Install bundler-audit
+        run: gem install bundler-audit
+
       - name: Scan for gems vulnerabilities using static analysis
         run: bin/bundle-audit check --update
 
