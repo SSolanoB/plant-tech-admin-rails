@@ -55,6 +55,10 @@ group :development, :test do
   gem "faker", "~> 3.5"
 end
 
-gem "bundler-audit", "~> 0.9.2"
-gem "active_record_doctor", "~> 1.15"
+group :development do
+  gem "bundler-audit", "~> 0.9.2"
+  gem "active_record_doctor", "~> 1.15"
+  gem "annotaterb", "~> 4.15"
+end
+
 gem "strong_migrations", "~> 2.3"

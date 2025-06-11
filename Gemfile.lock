@@ -74,6 +74,7 @@ GEM
       securerandom (>= 0.3)
       tzinfo (~> 2.0, >= 2.0.5)
       uri (>= 0.13.1)
+    annotaterb (4.15.0)
     ast (2.4.3)
     base64 (0.3.0)
     bcrypt_pbkdf (1.1.1)
@@ -337,6 +338,7 @@ PLATFORMS
 
 DEPENDENCIES
   active_record_doctor (~> 1.15)
+  annotaterb (~> 4.15)
   bootsnap
   brakeman
   bundler-audit (~> 0.9.2)
