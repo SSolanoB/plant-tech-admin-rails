@@ -39,7 +39,7 @@ jobs:
         run: gem install bundler-audit
 
       - name: Scan for gems vulnerabilities using static analysis
-        run: bin/bundle-audit check --update
+        run: bin/bundle audit check --update
 
   scan_database:
     runs-on: ubuntu-latest
