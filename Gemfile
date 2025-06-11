@@ -44,4 +44,14 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+
+  gem "rubocop-factory_bot", "~> 2.27", require: false
+  gem "rubocop-faker", "~> 1.3", require: false
+  gem "rubocop-minitest", "~> 0.38.1", require: false
+
+  gem "factory_bot_rails", "~> 6.4"
+  gem "faker", "~> 3.5"
 end
+
+gem "bundler-audit", "~> 0.9.2"
+gem "active_record_doctor", "~> 1.15"
