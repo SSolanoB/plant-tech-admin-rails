@@ -61,4 +61,8 @@ group :development do
   gem "annotaterb", "~> 4.15"
 end
 
+group :test do
+  gem "mocha", "~> 2.7"
+end
+
 gem "strong_migrations", "~> 2.3"
