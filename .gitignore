@@ -33,3 +33,5 @@
 
 # Ignore VSCode configuration
 .vscode/*
+
+coverage

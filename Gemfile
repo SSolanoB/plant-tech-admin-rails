@@ -63,6 +63,9 @@ end
 
 group :test do
   gem "mocha", "~> 2.7"
+  gem "simplecov", "~> 0.22.0"
+  gem "shoulda-matchers", "~> 6.5"
+  gem "shoulda-context", "3.0.0.rc1"
 end
 
 gem "strong_migrations", "~> 2.3"
