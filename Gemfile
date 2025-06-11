@@ -55,6 +55,17 @@ group :development, :test do
   gem "faker", "~> 3.5"
 end
 
-gem "bundler-audit", "~> 0.9.2"
-gem "active_record_doctor", "~> 1.15"
+group :development do
+  gem "bundler-audit", "~> 0.9.2"
+  gem "active_record_doctor", "~> 1.15"
+  gem "annotaterb", "~> 4.15"
+end
+
+group :test do
+  gem "mocha", "~> 2.7"
+  gem "simplecov", "~> 0.22.0"
+  gem "shoulda-matchers", "~> 6.5"
+  gem "shoulda-context", "3.0.0.rc1"
+end
+
 gem "strong_migrations", "~> 2.3"

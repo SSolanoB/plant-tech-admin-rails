@@ -1,8 +1,13 @@
 # frozen_string_literal: true
 
 ENV["RAILS_ENV"] ||= "test"
+require "support/simplecov"
 require_relative "../config/environment"
 require "rails/test_help"
+
+require "mocha/minitest"
+require "support/factory_bot"
+require "support/shoulda"
 
 module ActiveSupport
   class TestCase
