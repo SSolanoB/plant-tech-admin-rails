@@ -68,4 +68,4 @@ group :test do
   gem "shoulda-context", "3.0.0.rc1"
 end
 
-gem "strong_migrations", "~> 2.3"
+gem "strong_migrations", "~> 2.4"
