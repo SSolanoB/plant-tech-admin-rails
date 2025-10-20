@@ -58,7 +58,7 @@ end
 group :development do
   gem "bundler-audit", "~> 0.9.2"
   gem "active_record_doctor", "~> 1.15"
-  gem "annotaterb", "~> 4.16"
+  gem "annotaterb", "~> 4.20"
 end
 
 group :test do
